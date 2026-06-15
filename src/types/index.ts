@@ -11,6 +11,14 @@ export interface Employee {
   write_date?: string;
 }
 
+export interface DirectoryEmployee {
+  id: string;
+  name: string;
+  role: string;
+  department: string;
+  avatar: string;
+}
+
 export interface OdooConfig {
   url: string;
   db: string;
