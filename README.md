@@ -1,6 +1,9 @@
 # Odoo Employee List
 
-Expo React Native app that shows employees from the configured Odoo database.
+Expo React Native app for the internship employee list tasks.
+
+Task S2 adds Expo Router navigation, a login route, bottom tabs, and a mocked
+FlatList of collaborators.
 
 ## Setup
 
@@ -30,7 +33,9 @@ Scan the QR code with Expo Go.
 
 ## What It Does
 
-- Logs in to Odoo with `/jsonrpc`
-- Reads `hr.employee` records
-- Shows employee names, images, emails, phones, job titles, departments, and locations
-- Supports search and pull-to-refresh
+- Uses Expo Router with Stack and Tabs navigation
+- Redirects `/` to `/login`
+- Navigates from login to Home with `router.replace('/(tabs)/home')`
+- Shows 6 mocked collaborators in a performant FlatList
+- Uses a reusable `EmployeeCard` component
+- Includes a simple Profile tab with the logged-in email
