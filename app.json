@@ -1,0 +1,23 @@
+{
+  "expo": {
+    "name": "odoo-employee-list",
+    "slug": "odoo-employee-list",
+    "version": "1.0.0",
+    "sdkVersion": "54.0.0",
+    "jsEngine": "jsc",
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "supportsTabletMode": true
+    },
+    "android": {
+      "adaptiveIcon": {
+        "backgroundColor": "#ffffff"
+      }
+    },
+    "web": {
+      "favicon": "./assets/favicon.png"
+    }
+  }
+}

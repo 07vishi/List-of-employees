@@ -1,0 +1,24 @@
+<data>
+                <xpath expr="//field[@name='gender']" position="before">
+                    <field name="deficiente"/>
+                </xpath>
+                <xpath expr="//field[@name='identification_id']" position="replace">
+                    <field name="cga_number"/>
+                </xpath>
+                <xpath expr="//field[@name='passport_id']" position="replace">
+                    <field name="ss_number"/>
+                    <field name="nif_number"/>
+                    <field name="insurer_id"/>
+                </xpath>
+                <xpath expr="//field[@name='private_car_plate']" position="after">
+                    <field name="cc_number"/>
+                    <field name="cc_archive"/>
+                    <field name="emission_date"/>
+                    <field name="validity_date"/>
+                </xpath>
+                <xpath expr="//field[@name='gender']" position="after">
+                    <field name="codigo_profissao"/>
+                    <field name="nivel_habilitacoes_pt"/>
+                    <field name="categoria_profissional"/>
+                </xpath>
+            </data>
